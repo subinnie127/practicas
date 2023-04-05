@@ -2,7 +2,7 @@ var correo = document.getElementById("email");
 var sede = document.getElementById("sede");
 var detalle = document.getElementById("detalle");
 var error = document.getElementById("error");
-
+error.style.color='red';
 function enviar(){
     console.log('Enviando datos desde js');
 
